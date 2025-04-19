@@ -26,3 +26,15 @@ It exposes a RESTful API to perform basic CRUD operations.
 5. Validation
 
 ---
+
+## 📑 Address Book API Endpoints
+
+| Method | Endpoint                                      | Description                              |
+|--------|-----------------------------------------------|------------------------------------------|
+| GET    | `/address-book/getAllAddress`                 | Get all address book entries             |
+| GET    | `/address-book/getAddress/{id}`               | Get address by ID                        |
+| GET    | `/address-book/getAddress/country/{country}`  | Get all addresses by country             |
+| POST   | `/address-book/create`                        | Create new address book entry            |
+| PUT    | `/address-book/update/{id}`                   | Update address by ID                     |
+| DELETE | `/address-book/delete/{id}`                   | Delete address by ID                     |
+| DELETE | `/address-book/deleteAllAddresses`            | Delete all addresses                     |
