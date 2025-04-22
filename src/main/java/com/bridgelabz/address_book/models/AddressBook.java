@@ -23,7 +23,7 @@ public class AddressBook {
     private String state;
     private String zip;
     private String country;
-    private int phoneNo;
+    private String phoneNo;
 
     public AddressBook(AddressBookDTO dto) {
        this.name = dto.getName();
